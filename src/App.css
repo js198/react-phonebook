@@ -1,0 +1,17 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0;
+  padding:0;
+  min-width: 100%;
+  text-align: center;
+  background-color: #00FFFF;
+}
+
+header {
+  margin: 0 0 20px;
+}

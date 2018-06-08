@@ -1,0 +1,10 @@
+.contacts {
+	list-style-type: none;
+}
+
+.contacts button {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 5px;
+	margin-left: 10px;
+}
