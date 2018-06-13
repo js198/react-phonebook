@@ -2,19 +2,25 @@
   "name": "phone-book",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://js198.github.io/react-phonebook/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "i": "^0.3.6",
+    "npm": "^6.1.0",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "yarn": "^1.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
